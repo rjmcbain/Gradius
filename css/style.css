@@ -1,0 +1,38 @@
+.container {
+	position: relative;
+}
+
+body {
+	background-color: black;
+	margin: 0px;
+}
+
+#player { 
+	border: 1px solid red; 
+	width: 60px; 
+	height: 60px; 
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+.gameboard {
+	border: 1px solid black;
+	height: 98%;
+	width: 98%;
+	margin: 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.obstacle {
+	border: 1px solid black;
+	width: 40px;
+	height: 200px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
