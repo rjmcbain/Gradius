@@ -53,11 +53,6 @@ background-size: cover;
   }
 }
 
-body{
-	background-color: black;
-
-}
-
 .gradius {
 	position: absolute;
 	top: 0;
@@ -80,6 +75,18 @@ body{
 
 body {
 	font-family: 'Press Start 2P', cursive;
+	background-color: black;
+}
+
+p {
+	color: #fff;
+	position: absolute;
+	top: 64%;
+	left: 5%;
+	text-align: center;
+	padding-right: 60px;
+	margin: 0 auto;
+	line-height: 155%;
 }
 
 #player1 { 
@@ -99,7 +106,7 @@ body {
 .p2 {
 	position: absolute;
 	top: 14%;
-	left: 55%;
+	left: 57%;
 	color: red;
 	font-size: 20px;
 	margin: 0 auto;
