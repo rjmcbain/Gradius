@@ -40,6 +40,14 @@ function movePlayer () {
     }
     
      keys = keys.slice (1);
-}
+
+     
+};
+
+	$(function(){
+		$('#hide').click(function(){
+			$("button").hide();
+		});
+	});
 
  
