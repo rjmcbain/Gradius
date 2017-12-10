@@ -115,71 +115,123 @@ $(document).ready(function() {
 });
 
 
-var keys = [];
+// var keys = [];
 
-$("html").keydown(function(event){
+// $("html").keydown(function(event){
 
-    if (keys.length > 2) return;
-    keys.push (event.which);
+//     if (keys.length > 2) return;
+//     keys.push (event.which);
     
-    movePlayer();
-});
+//     movePlayer();
+// });
 
-function movePlayer () {
-    var moveTo = keys[0];
-    if(moveTo == "37") {
-      $("#player1").stop(true).animate({"left" : "-=30px"});  		//player 1
-    }																//movement
+// function movePlayer () {
+//     var moveTo = keys[0];
+//     if(moveTo == "37") {
+//       $("#player1").go(true).animate({"left" : "-=30px"});  		//player 1
+//     }																//movement
 
-    if(moveTo == "39") {
-      $("#player1").stop(true).animate({"left" : "+=30px"});
-    }
+//     if(moveTo == "39") {
+//       $("#player1").go(true).animate({"left" : "+=30px"});
+//     }
 
-    if(moveTo == "38") {
-      $("#player1").stop(true).animate({"top" : "-=30px"});
-    }
+//     if(moveTo == "38") {
+//       $("#player1").go(true).animate({"top" : "-=30px"});
+//     }
 
-    if(moveTo == "40") {
-            $("#player1").stop(true).animate({"top" : "+=30px"});
-    }
+//     if(moveTo == "40") {
+//             $("#player1").go(true).animate({"top" : "+=30px"});
+//     }
     
-     keys = keys.slice (1);
+//      keys = keys.slice (1);
 
      
-};
+// };
 
-var keys = [];
+$(document).keydown(function(e) {
+    switch (e.which) {
+        case 37:
+            $('#player1').finish().animate({
+                left: "-=10"
+            });
+            break;
+        case 38:
+            $('#player1').finish().animate({
+                top: "-=10"
+            });
+            break;
+        case 39:
+            $('#player1').finish().animate({
+                left: "+=10"
+            });
+            break;
+        case 40:
+            $('#player1').finish().animate({
+                top: "+=10"
+            });
+            break;            
+    }
 
-$("html").keydown(function(event){
+})
 
-    if (keys.length > 2) return;
-    keys.push (event.which);
+$(document).keydown(function(e) {
+    switch (e.which) {
+        case 65:
+            $('#player2').finish().animate({
+                left: "-=10"
+            });
+            break;
+        case 87:
+            $('#player2').finish().animate({
+                top: "-=10"
+            });
+            break;
+        case 68:
+            $('#player2').finish().animate({
+                left: "+=10"
+            });
+            break;
+        case 83:
+            $('#player2').finish().animate({
+                top: "+=10"
+            });
+            break;            
+    }
+
+})
+
+// var keys = [];
+
+// $("html").keydown(function(event){
+
+//     if (keys.length > 2) return;
+//     keys.push (event.which);
     
-    movePlayer2();
-});
+//     movePlayer2();
+// });
 
-function movePlayer2 () {
-    var moveTo = keys[0];
-    if(moveTo == "65") {
-      $("#player2").stop(true).animate({"left" : "-=30px"});
-    }
+// function movePlayer2 () {
+//     var moveTo = keys[0];
+//     if(moveTo == "65") {
+//       $("#player2").stop(true).animate({"left" : "-=30px"});
+//     }
 
-    if(moveTo == "68") {
-      $("#player2").stop(true).animate({"left" : "+=30px"});		//player 2
-    }																//movement
+//     if(moveTo == "68") {
+//       $("#player2").stop(true).animate({"left" : "+=30px"});		//player 2
+//     }																//movement
 
-    if(moveTo == "87") {
-      $("#player2").stop(true).animate({"top" : "-=30px"});
-    }
+//     if(moveTo == "87") {
+//       $("#player2").stop(true).animate({"top" : "-=30px"});
+//     }
 
-    if(moveTo == "83") {
-      $("#player2").stop(true).animate({"top" : "+=30px"});
-    }
+//     if(moveTo == "83") {
+//       $("#player2").stop(true).animate({"top" : "+=30px"});
+//     }
     
-     keys = keys.slice (1);
+//      keys = keys.slice (1);
 
      
-};
+// };
 
 
 	// $(function(){
