@@ -93,7 +93,8 @@ p {
 	color: #fff;
 	position: absolute;
 	top: 66%;
-	left: 39%;
+	left: 50%;
+	line-height: 155%;
 	text-align: center;
 	margin: 0 auto;
 }
