@@ -98,8 +98,8 @@ body {
 
 .p2 {
 	position: absolute;
-	top: 15%;
-	left: 54%;
+	top: 14%;
+	left: 55%;
 	color: red;
 	font-size: 20px;
 	margin: 0 auto;
@@ -107,8 +107,8 @@ body {
 
 .p1 {
 	position: absolute;
-	top: 15%;
-	left: 34%;
+	top: 14%;
+	left: 31%;
 	color: red;
 	font-size: 20px;
 	margin: 0 auto;
@@ -132,6 +132,13 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+#goback {
+	text-align: center;
+	color: white;
+	font-size: 200px;
+	opacity: .0;
 }
 
 button {
@@ -193,3 +200,24 @@ a:active{
 	background-color: transparent;
 	text-decoration: none
 }
+
+#fighter {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+/*.f1 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+.f2 {
+	position: relative;
+	top: -100%;
+	left: 0%;
+}*/

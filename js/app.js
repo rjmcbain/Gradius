@@ -68,7 +68,7 @@ $(document).ready(function() {
 
 var keys = [];
 
-$("html").keyup(function(event){
+$("html").keydown(function(event){
 
     if (keys.length > 2) return;
     keys.push (event.which);
@@ -101,7 +101,7 @@ function movePlayer () {
 
 var keys = [];
 
-$("html").keyup(function(event){
+$("html").keydown(function(event){
 
     if (keys.length > 2) return;
     keys.push (event.which);
