@@ -184,6 +184,12 @@ li {
 	left: 80%;
 }
 
+#bossintro {
+	position: absolute;
+	top: 80%;
+	left: 80%;
+}
+
 a:link{
 	color: #fff;
 	background-color: transparent;

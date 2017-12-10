@@ -66,6 +66,12 @@ $(document).ready(function() {
     $("#boss").animate({left: "+=100"}, 1500);
 });
 
+$(document).ready(function() {
+    $("#bossintro").animate({top: "-=0"}, 1800);
+    $("#bossintro").animate({top: "-=450"}, 5000);
+    $("#bossintro").animate({left: "-=1500"}, 1000);
+});
+
 var keys = [];
 
 $("html").keydown(function(event){
