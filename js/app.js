@@ -93,8 +93,3 @@ $('html, body').css({
     height: '100%'
 });
 
-function explode(){
-	alert("Boom!");
-}
-setTimeout (explode, 2000);
- }
