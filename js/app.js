@@ -19,21 +19,21 @@ $(function(){
     $('.fadeIn').hide();
     setTimeout(function(){
     $('.fadeIn').fadeIn('slow');  
-    }, 18500);
+    }, 17750);
 })
 
 $(function(){
     $('.p1').hide();
     setTimeout(function(){
     $('.p1').fadeIn('slow');  
-    }, 18500);
+    }, 17750);
 })
 
 $(function(){
     $('.p2').hide();
     setTimeout(function(){
     $('.p2').fadeIn('slow');  
-    }, 18500);
+    }, 17750);
 })
 
 
