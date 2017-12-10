@@ -23,20 +23,6 @@ $(function(){
 })
 
 $(function(){
-    $('.hard').hide();
-    setTimeout(function(){                           //intro text
-    $('.hard').fadeIn('slow');    
-    }, 28750);
-})
-
-$(function(){
-    $('.delayOut').show();
-    setTimeout(function(){                           //intro text
-    $('.delayOut').fadeOut('slow');    
-    }, 27750);
-})
-
-$(function(){
     $('.p1').hide();
     setTimeout(function(){                           //intro text
     $('.p1').fadeIn('slow');  
@@ -103,6 +89,108 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    $("#boss2").animate({top: "+=200"}, 2000);           //boss movement
+    $("#boss2").animate({top: "-=400"}, 1000);
+    $("#boss2").animate({top: "+=100"}, 2000);
+    $("#boss2").animate({left: "-=200"}, 2000);
+    $("#boss2").animate({left: "+=200"}, 1500);
+    $("#boss2").animate({left: "-=100"}, 3000);
+    $("#boss2").animate({top: "+=100"}, 2000);
+    $("#boss2").animate({top: "-=100"}, 1000);
+    $("#boss2").animate({top: "+=250"}, 1500);
+    $("#boss2").animate({top: "-=300"}, 2500);           //boss movement
+    $("#boss2").animate({top: "+=150"}, 1500);
+    $("#boss2").animate({left: "+=100"}, 1500);
+     $("#boss2").animate({top: "+=200"}, 2000);
+    $("#boss2").animate({top: "-=400"}, 1000);
+    $("#boss2").animate({top: "+=100"}, 2000);
+    $("#boss2").animate({left: "-=200"}, 2000);
+    $("#boss2").animate({left: "+=200"}, 1500);
+    $("#boss2").animate({left: "-=100"}, 3000);          //boss movement
+    $("#boss2").animate({top: "+=100"}, 2000);
+    $("#boss2").animate({top: "-=100"}, 1000);
+    $("#boss2").animate({top: "+=250"}, 1500);
+    $("#boss2").animate({top: "-=300"}, 2500);
+    $("#boss2").animate({top: "+=150"}, 1500);
+    $("#boss2").animate({left: "+=100"}, 1500);
+     $("#boss2").animate({top: "+=200"}, 2000);
+    $("#boss2").animate({top: "-=400"}, 1000);
+    $("#boss2").animate({top: "+=100"}, 2000);
+    $("#boss2").animate({left: "-=200"}, 2000);          //boss movement
+    $("#boss2").animate({left: "+=200"}, 1500);
+    $("#boss2").animate({left: "-=100"}, 3000);
+    $("#boss2").animate({top: "+=100"}, 2000);
+    $("#boss2").animate({top: "-=100"}, 1000);
+    $("#boss2").animate({top: "+=250"}, 1500);
+    $("#boss2").animate({top: "-=300"}, 2500);
+    $("#boss2").animate({top: "+=150"}, 1500);
+    $("#boss2").animate({left: "+=100"}, 1500);
+     $("#boss2").animate({top: "+=200"}, 2000);
+    $("#boss2").animate({top: "-=400"}, 1000);
+    $("#boss2").animate({top: "+=100"}, 2000);
+    $("#boss2").animate({left: "-=200"}, 2000);
+    $("#boss2").animate({left: "+=200"}, 1500);
+    $("#boss2").animate({left: "-=100"}, 3000);          //boss movement
+    $("#boss2").animate({top: "+=100"}, 2000);
+    $("#boss2").animate({top: "-=100"}, 1000);
+    $("#boss2").animate({top: "+=250"}, 1500);
+    $("#boss2").animate({top: "-=300"}, 2500);
+    $("#boss2").animate({top: "+=150"}, 1500);
+    $("#boss2").animate({left: "+=100"}, 1500);
+});
+
+$(document).ready(function() {
+    $("#boss3").animate({top: "+=200"}, 2000);           //boss movement
+    $("#boss3").animate({top: "-=400"}, 1000);
+    $("#boss3").animate({top: "+=100"}, 2000);
+    $("#boss3").animate({left: "-=200"}, 2000);
+    $("#boss3").animate({left: "+=200"}, 1500);
+    $("#boss3").animate({left: "-=100"}, 3000);
+    $("#boss3").animate({top: "+=100"}, 2000);
+    $("#boss3").animate({top: "-=100"}, 1000);
+    $("#boss3").animate({top: "+=250"}, 1500);
+    $("#boss3").animate({top: "-=300"}, 2500);           //boss movement
+    $("#boss3").animate({top: "+=150"}, 1500);
+    $("#boss3").animate({left: "+=100"}, 1500);
+     $("#boss3").animate({top: "+=200"}, 2000);
+    $("#boss3").animate({top: "-=400"}, 1000);
+    $("#boss3").animate({top: "+=100"}, 2000);
+    $("#boss3").animate({left: "-=200"}, 2000);
+    $("#boss3").animate({left: "+=200"}, 1500);
+    $("#boss3").animate({left: "-=100"}, 3000);          //boss movement
+    $("#boss3").animate({top: "+=100"}, 2000);
+    $("#boss3").animate({top: "-=100"}, 1000);
+    $("#boss3").animate({top: "+=250"}, 1500);
+    $("#boss3").animate({top: "-=300"}, 2500);
+    $("#boss3").animate({top: "+=150"}, 1500);
+    $("#boss3").animate({left: "+=100"}, 1500);
+     $("#boss3").animate({top: "+=200"}, 2000);
+    $("#boss3").animate({top: "-=400"}, 1000);
+    $("#boss3").animate({top: "+=100"}, 2000);
+    $("#boss3").animate({left: "-=200"}, 2000);          //boss movement
+    $("#boss3").animate({left: "+=200"}, 1500);
+    $("#boss3").animate({left: "-=100"}, 3000);
+    $("#boss3").animate({top: "+=100"}, 2000);
+    $("#boss3").animate({top: "-=100"}, 1000);
+    $("#boss3").animate({top: "+=250"}, 1500);
+    $("#boss3").animate({top: "-=300"}, 2500);
+    $("#boss3").animate({top: "+=150"}, 1500);
+    $("#boss3").animate({left: "+=100"}, 1500);
+     $("#boss3").animate({top: "+=200"}, 2000);
+    $("#boss3").animate({top: "-=400"}, 1000);
+    $("#boss3").animate({top: "+=100"}, 2000);
+    $("#boss3").animate({left: "-=200"}, 2000);
+    $("#boss3").animate({left: "+=200"}, 1500);
+    $("#boss3").animate({left: "-=100"}, 3000);          //boss movement
+    $("#boss3").animate({top: "+=100"}, 2000);
+    $("#boss3").animate({top: "-=100"}, 1000);
+    $("#boss3").animate({top: "+=250"}, 1500);
+    $("#boss3").animate({top: "-=300"}, 2500);
+    $("#boss3").animate({top: "+=150"}, 1500);
+    $("#boss3").animate({left: "+=100"}, 1500);
+});
+
+$(document).ready(function() {
     $("#bossintro").animate({top: "-=0"}, 1800);        //ship movement
     $("#bossintro").animate({top: "-=500"}, 8250);
     $("#bossintro").animate({left: "-=2500"}, 1000);
@@ -166,27 +254,22 @@ $(document).keydown(function(e) {
     switch (e.which) {
         case 37:
             $('#player1').finish().animate({
-                left: "-=10"
+                left: "-=5"
             });
             break;
         case 38:
             $('#player1').finish().animate({
-                top: "-=10"
+                top: "-=5"
             });
             break;
         case 39:
             $('#player1').finish().animate({
-                left: "+=10"
-            });
-            break;
-        case 16:
-            $('#player1').finish().animate({
-                left: "+=125"
+                left: "+=5"
             });
             break;
         case 40:
             $('#player1').finish().animate({
-                top: "+=10"
+                top: "+=5"
             });
             break;            
     }
@@ -197,27 +280,22 @@ $(document).keydown(function(e) {
     switch (e.which) {
         case 65:
             $('#player2').finish().animate({
-                left: "-=10"
+                left: "-=5"
             });
             break;
         case 87:
             $('#player2').finish().animate({
-                top: "-=10"
+                top: "-=5"
             });
             break;
         case 68:
             $('#player2').finish().animate({
-                left: "+=10"
-            });
-            break;
-        case 70:
-            $('#player2').finish().animate({
-                left: "+=125"
+                left: "+=5"
             });
             break;
         case 83:
             $('#player2').finish().animate({
-                top: "+=10"
+                top: "+=5"
             });
             break;            
     }

@@ -89,6 +89,15 @@ p {
 	line-height: 155%;
 }
 
+.hard {
+	color: #fff;
+	position: absolute;
+	top: 66%;
+	left: 39%;
+	text-align: center;
+	margin: 0 auto;
+}
+
 #player1 { 
 	position: absolute;
 	overflow: hidden;
@@ -179,6 +188,18 @@ li {
 #boss {
 	position: absolute;
 	top: 40%;
+	left: 80%;
+}
+
+#boss2 {
+	position: absolute;
+	top: 20%;
+	left: 80%;
+}
+
+#boss3 {
+	position: absolute;
+	top: 60%;
 	left: 80%;
 }
 

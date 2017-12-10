@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<title>Gradius</title>
 </head>
 <body>
+	<div id="container">
+		<!-- <div class="gradius">
+			<img src="images/gradius.jpg" alt="gradius">
+		</div> -->
+	<a id= "goback" href="index.html">goback</a>
+	<a id= "goback" href="index.html">goback</a>
+	<a id= "goback" href="index.html">goback</a>
+
+	<!-- <input type="button" value="Reset Game" onClick="window.location.reload()"> -->
+	
+	<audio src="music/hard.mp3" autoplay loop>
+		
+	</audio>
 
 
+	<!-- <div id="gameboard">
+	</div> -->
+		<img id="player1" src="images/ship.jpg" alt="ship">
 
+		<img id="player2" src="http://lpix.org/2094570/Missile.gif" alt="ship">
+
+		<img id = "boss" src="https://vignette.wikia.nocookie.net/gradius/images/7/78/Big_Core_Gradius_NES.gif/revision/latest?cb=20090802133020" alt="boss">
+
+		<img id = "boss2" src="https://vignette.wikia.nocookie.net/gradius/images/7/78/Big_Core_Gradius_NES.gif/revision/latest?cb=20090802133020" alt="boss">
+
+		<img id = "boss3" src="https://vignette.wikia.nocookie.net/gradius/images/7/78/Big_Core_Gradius_NES.gif/revision/latest?cb=20090802133020" alt="boss">
+		<!-- <div id ="fighter">
+			<img class = "f1" src="http://lpix.org/2216763/Lord-British-Ripple.gif" alt="fighter">
+			<img class = "f2" src="http://lpix.org/2216763/Lord-British-Ripple.gif" alt="fighter">
+		</div> -->
+
+		<div class="gameboard"></div>
+		<!-- <div class= "obstacle"></div> -->
+		
+
+	<div id = "fade">	
+		<div id="instructions"> Player 1 uses the arrow keys to move </div>
+			<div class="blue">Player 2 uses the wasd keys to move</div>
+	</div>	
+
+
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hard.js"></script>
 </body>
 </html>
