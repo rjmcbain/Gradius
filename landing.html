@@ -1,24 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Welcome</title>
+	<title>Gradius</title>
 </head>
 <body>
-	
-	<h1>Welcome to my game</h1>
-	<div>1 Player</div>
-	<div>2 Players</div>
-	<li><a href="index.html">Easy</a></li>
-	<li><a href="index.html">Hard</a></li>
+	<div id="container">
+		<!-- <div class="gradius">
+			<img src="images/gradius.jpg" alt="gradius">
+		</div> -->
+
+	<audio src="music/gradius1.mp3" autoplay loop>
 		
-	<p>Use the arrow keys to move up, down, left and right. Avoid objects that are coming towards you. Good Luck!</p>
+	</audio>
 
 
+	<!-- <div id="gameboard">
+	</div> -->
+		<img id="player1" src="images/ship.jpg" alt="ship">
+
+		<img id="player2" src="images/ship.jpg" alt="ship">
+
+		<div class="gameboard"></div>
+		<!-- <div class= "obstacle"></div> -->
+		<center>
+			<button id="hide">Start Game</button>
+		</center>
+
+		<div id="instructions"> Player 1 is <strong>Red</strong>. Use arrow keys to move </div>
+			<div class="blue">Player 2 is <strong>Blue</strong>. use wasd keys to move</div>
+		
 
 
-
+	</div>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

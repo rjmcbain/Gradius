@@ -16,6 +16,13 @@
 background-size: cover;
 }
 
+#bgimg {
+	background-size: cover;
+	width:100%;
+ height:100%;
+ margin: 0 auto;
+}
+
 @-webkit-keyframes scroll{
   100%{
     background-position:-3000px 0px;
@@ -89,6 +96,22 @@ body{
 	overflow: hidden;
 	top: 50%;
 	left: 15%;
+}
+
+#p1 {
+	position: absolute;
+	top: 50%;
+	left: 37%;
+	color: red;
+	font-size: 20px;
+}
+
+#p2 {
+	position: absolute;
+	top: 50%;
+	left: 37%;
+	color: red;
+	font-size: 20px;
 }
 /*.gameboard {
 	border: 1px solid black;
