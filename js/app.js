@@ -15,6 +15,28 @@ setTimeout (function(){
 	$('#fade').fadeOut('slow');
 }, 6000);
 
+$(function(){
+    $('.fadeIn').hide();
+    setTimeout(function(){
+    $('.fadeIn').fadeIn('slow');  
+    }, 17000);
+})
+
+$(function(){
+    $('.p1').hide();
+    setTimeout(function(){
+    $('.p1').fadeIn('slow');  
+    }, 17000);
+})
+
+$(function(){
+    $('.p2').hide();
+    setTimeout(function(){
+    $('.p2').fadeIn('slow');  
+    }, 17000);
+})
+
+
 $(document).ready(function() {
     $("#boss").animate({top: "+=200"}, 2000);
     $("#boss").animate({top: "-=400"}, 1000);
@@ -73,23 +95,23 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $("#p1intro").animate({top: "-=0"}, 11500);
-    $("#p1intro").animate({left: "+=6000"}, 6000);
+    $("#p1intro").animate({top: "-=0"}, 10500);
+    $("#p1intro").animate({left: "+=6000"}, 5000);
 });
 
 $(document).ready(function() {
-    $("#p2intro").animate({top: "-=0"}, 13500);
-    $("#p2intro").animate({left: "-=6000"}, 6000);
+    $("#p2intro").animate({top: "-=0"}, 12000);
+    $("#p2intro").animate({left: "-=6000"}, 5000);
 });
 
 $(document).ready(function() {
-    $("#p3intro").animate({top: "-=0"}, 15500);
-    $("#p3intro").animate({left: "+=6000"}, 6000);
+    $("#p3intro").animate({top: "-=0"}, 13750);
+    $("#p3intro").animate({left: "+=6000"}, 5000);
 });
 
 $(document).ready(function() {
-    $("#p4intro").animate({top: "-=0"}, 17500);
-    $("#p4intro").animate({left: "-=6000"}, 6000);
+    $("#p4intro").animate({top: "-=0"}, 15000);
+    $("#p4intro").animate({left: "-=6000"}, 5000);
 });
 
 
