@@ -11,9 +11,13 @@ console.log("hello");
 
 // });
 
+setTimeout (function(){
+	$('#fade').fadeOut('slow');
+}, 4000);
+
 var keys = [];
 
-$("html").keydown(function(event){
+$("html").keyup(function(event){
 
     if (keys.length > 2) return;
     keys.push (event.which);
@@ -46,7 +50,7 @@ function movePlayer () {
 
 var keys = [];
 
-$("html").keydown(function(event){
+$("html").keyup(function(event){
 
     if (keys.length > 2) return;
     keys.push (event.which);
@@ -78,13 +82,13 @@ function movePlayer2 () {
 };
 
 
-	$(function(){
-		$('#hide').click(function(){
-			$("button").slideToggle(200);
-			$("#instructions").slideToggle(1500);
-			$(".blue").slideToggle(2500);
-		});
-	});
+	// $(function(){
+	// 	$('#hide').click(function(){
+	// 		$("button").slideToggle(200);
+	// 		$("#instructions").slideToggle(1500); 		Old Hide Button
+	// 		$(".blue").slideToggle(2500);				Replaced with Fade
+	// 	});
+	// });
 
 
 
