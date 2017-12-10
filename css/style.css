@@ -58,17 +58,17 @@ body{
 	/*background-size: 100%;*/
 	animation: slideshow 10s linear infinite;
 }
-
+/*
 @keyframes slideshow {
   0%    { left: 0; }
   100%  { left: -200%; }
-}										/*makes slide show*/
+}										makes slide show
 
 @keyframes moveSlideshow {  
   100% { 
     -webkit-transform: translateX(-200%);  
   }
-}
+}*/
 
 /*body {
 	background-color: black;
