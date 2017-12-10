@@ -164,6 +164,12 @@ li {
 	font-size: 20px;
 }
 
+#boss {
+	position: absolute;
+	top: 40%;
+	left: 80%;
+}
+
 a:link{
 	color: #fff;
 	background-color: transparent;

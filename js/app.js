@@ -13,7 +13,58 @@ console.log("hello");
 
 setTimeout (function(){
 	$('#fade').fadeOut('slow');
-}, 4000);
+}, 6000);
+
+$(document).ready(function() {
+    $("#boss").animate({top: "+=200"}, 2000);
+    $("#boss").animate({top: "-=400"}, 1000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({left: "-=200"}, 2000);
+    $("#boss").animate({left: "+=200"}, 1500);
+    $("#boss").animate({left: "-=100"}, 3000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({top: "-=100"}, 1000);
+    $("#boss").animate({top: "+=250"}, 1500);
+    $("#boss").animate({top: "-=300"}, 2500);
+    $("#boss").animate({top: "+=150"}, 1500);
+    $("#boss").animate({left: "+=100"}, 1500);
+     $("#boss").animate({top: "+=200"}, 2000);
+    $("#boss").animate({top: "-=400"}, 1000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({left: "-=200"}, 2000);
+    $("#boss").animate({left: "+=200"}, 1500);
+    $("#boss").animate({left: "-=100"}, 3000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({top: "-=100"}, 1000);
+    $("#boss").animate({top: "+=250"}, 1500);
+    $("#boss").animate({top: "-=300"}, 2500);
+    $("#boss").animate({top: "+=150"}, 1500);
+    $("#boss").animate({left: "+=100"}, 1500);
+     $("#boss").animate({top: "+=200"}, 2000);
+    $("#boss").animate({top: "-=400"}, 1000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({left: "-=200"}, 2000);
+    $("#boss").animate({left: "+=200"}, 1500);
+    $("#boss").animate({left: "-=100"}, 3000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({top: "-=100"}, 1000);
+    $("#boss").animate({top: "+=250"}, 1500);
+    $("#boss").animate({top: "-=300"}, 2500);
+    $("#boss").animate({top: "+=150"}, 1500);
+    $("#boss").animate({left: "+=100"}, 1500);
+     $("#boss").animate({top: "+=200"}, 2000);
+    $("#boss").animate({top: "-=400"}, 1000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({left: "-=200"}, 2000);
+    $("#boss").animate({left: "+=200"}, 1500);
+    $("#boss").animate({left: "-=100"}, 3000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({top: "-=100"}, 1000);
+    $("#boss").animate({top: "+=250"}, 1500);
+    $("#boss").animate({top: "-=300"}, 2500);
+    $("#boss").animate({top: "+=150"}, 1500);
+    $("#boss").animate({left: "+=100"}, 1500);
+});
 
 var keys = [];
 
