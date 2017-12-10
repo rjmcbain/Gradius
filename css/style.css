@@ -107,17 +107,15 @@ p {
 	position: absolute;
 	top: 14%;
 	left: 57%;
-	color: red;
-	font-size: 20px;
+	font-size: 25px;
 	margin: 0 auto;
 }
 
 .p1 {
 	position: absolute;
 	top: 14%;
-	left: 31%;
-	color: red;
-	font-size: 20px;
+	left: 27%;
+	font-size: 25px;
 	margin: 0 auto;
 }
 /*.gameboard {
