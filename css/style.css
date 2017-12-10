@@ -65,7 +65,7 @@ background-size: cover;
 @keyframes slideshow {
   0%    { left: 0; }
   100%  { left: -200%; }
-}										makes slide show
+}												/*makes slide show*/
 
 @keyframes moveSlideshow {  
   100% { 

@@ -12,36 +12,60 @@ console.log("hello");
 // });
 
 setTimeout (function(){
-	$('#fade').fadeOut('slow');
-}, 6000);
+	$('#fade').fadeOut('slow');                      //intro text
+}, 6000);   
 
 $(function(){
     $('.fadeIn').hide();
-    setTimeout(function(){
-    $('.fadeIn').fadeIn('slow');  
+    setTimeout(function(){                           //intro text
+    $('.fadeIn').fadeIn('slow');    
     }, 17750);
 })
 
 $(function(){
     $('.p1').hide();
-    setTimeout(function(){
+    setTimeout(function(){                           //intro text
     $('.p1').fadeIn('slow');  
     }, 17750);
 })
 
 $(function(){
     $('.p2').hide();
-    setTimeout(function(){
+    setTimeout(function(){                           //intro text
     $('.p2').fadeIn('slow');  
     }, 17750);
 })
 
 
 $(document).ready(function() {
-    $("#boss").animate({top: "+=200"}, 2000);
+    $("#boss").animate({top: "+=200"}, 2000);           //boss movement
     $("#boss").animate({top: "-=400"}, 1000);
     $("#boss").animate({top: "+=100"}, 2000);
     $("#boss").animate({left: "-=200"}, 2000);
+    $("#boss").animate({left: "+=200"}, 1500);
+    $("#boss").animate({left: "-=100"}, 3000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({top: "-=100"}, 1000);
+    $("#boss").animate({top: "+=250"}, 1500);
+    $("#boss").animate({top: "-=300"}, 2500);           //boss movement
+    $("#boss").animate({top: "+=150"}, 1500);
+    $("#boss").animate({left: "+=100"}, 1500);
+     $("#boss").animate({top: "+=200"}, 2000);
+    $("#boss").animate({top: "-=400"}, 1000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({left: "-=200"}, 2000);
+    $("#boss").animate({left: "+=200"}, 1500);
+    $("#boss").animate({left: "-=100"}, 3000);          //boss movement
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({top: "-=100"}, 1000);
+    $("#boss").animate({top: "+=250"}, 1500);
+    $("#boss").animate({top: "-=300"}, 2500);
+    $("#boss").animate({top: "+=150"}, 1500);
+    $("#boss").animate({left: "+=100"}, 1500);
+     $("#boss").animate({top: "+=200"}, 2000);
+    $("#boss").animate({top: "-=400"}, 1000);
+    $("#boss").animate({top: "+=100"}, 2000);
+    $("#boss").animate({left: "-=200"}, 2000);          //boss movement
     $("#boss").animate({left: "+=200"}, 1500);
     $("#boss").animate({left: "-=100"}, 3000);
     $("#boss").animate({top: "+=100"}, 2000);
@@ -55,31 +79,7 @@ $(document).ready(function() {
     $("#boss").animate({top: "+=100"}, 2000);
     $("#boss").animate({left: "-=200"}, 2000);
     $("#boss").animate({left: "+=200"}, 1500);
-    $("#boss").animate({left: "-=100"}, 3000);
-    $("#boss").animate({top: "+=100"}, 2000);
-    $("#boss").animate({top: "-=100"}, 1000);
-    $("#boss").animate({top: "+=250"}, 1500);
-    $("#boss").animate({top: "-=300"}, 2500);
-    $("#boss").animate({top: "+=150"}, 1500);
-    $("#boss").animate({left: "+=100"}, 1500);
-     $("#boss").animate({top: "+=200"}, 2000);
-    $("#boss").animate({top: "-=400"}, 1000);
-    $("#boss").animate({top: "+=100"}, 2000);
-    $("#boss").animate({left: "-=200"}, 2000);
-    $("#boss").animate({left: "+=200"}, 1500);
-    $("#boss").animate({left: "-=100"}, 3000);
-    $("#boss").animate({top: "+=100"}, 2000);
-    $("#boss").animate({top: "-=100"}, 1000);
-    $("#boss").animate({top: "+=250"}, 1500);
-    $("#boss").animate({top: "-=300"}, 2500);
-    $("#boss").animate({top: "+=150"}, 1500);
-    $("#boss").animate({left: "+=100"}, 1500);
-     $("#boss").animate({top: "+=200"}, 2000);
-    $("#boss").animate({top: "-=400"}, 1000);
-    $("#boss").animate({top: "+=100"}, 2000);
-    $("#boss").animate({left: "-=200"}, 2000);
-    $("#boss").animate({left: "+=200"}, 1500);
-    $("#boss").animate({left: "-=100"}, 3000);
+    $("#boss").animate({left: "-=100"}, 3000);          //boss movement
     $("#boss").animate({top: "+=100"}, 2000);
     $("#boss").animate({top: "-=100"}, 1000);
     $("#boss").animate({top: "+=250"}, 1500);
@@ -89,24 +89,24 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $("#bossintro").animate({top: "-=0"}, 1800);
+    $("#bossintro").animate({top: "-=0"}, 1800);        //ship movement
     $("#bossintro").animate({top: "-=500"}, 8250);
     $("#bossintro").animate({left: "-=2500"}, 1000);
 });
 
 $(document).ready(function() {
     $("#p1intro").animate({top: "-=0"}, 10500);
-    $("#p1intro").animate({left: "+=6000"}, 5000);
+    $("#p1intro").animate({left: "+=6000"}, 5000);      //ship movement
 });
 
 $(document).ready(function() {
     $("#p2intro").animate({top: "-=0"}, 12000);
-    $("#p2intro").animate({left: "-=6000"}, 5000);
+    $("#p2intro").animate({left: "-=6000"}, 5000);      //ship movement
 });
 
 $(document).ready(function() {
-    $("#p3intro").animate({top: "-=0"}, 13750);
-    $("#p3intro").animate({left: "+=6000"}, 5000);
+    $("#p3intro").animate({top: "-=0"}, 13750);         
+    $("#p3intro").animate({left: "+=6000"}, 5000);      //ship movement
 });
 
 $(document).ready(function() {
