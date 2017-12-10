@@ -1,12 +1,27 @@
 .gradius {
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
 	margin: 0 auto;
-	background-size: 100%;
+	/*background-size: 100%;*/
+	animation: slideshow 10s linear infinite;
+}
+
+@keyframes slideshow {
+  0%    { left: 0; }
+  100%  { left: -200%; }
+}
+
+@keyframes moveSlideshow {  
+  100% { 
+    -webkit-transform: translateX(-200%);  
+  }
 }
 
 body {
 	background-color: black;
 	margin: 0 auto;
+	background-size: 80%;
 }
 
 #player1 { 
