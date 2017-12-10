@@ -1,7 +1,7 @@
 .gradius {
 	position: relative;
 	margin: 0 auto;
-	background-size: cover;
+	background-size: 100%;
 }
 
 body {
@@ -15,8 +15,9 @@ body {
 	height: 60px; 
 	position: absolute;
 	overflow: hidden;
-	top: 40%;
+	top: 30%;
 	left: 15%;
+	color: white;
 }
 
 #player2 { 
@@ -25,8 +26,9 @@ body {
 	height: 60px; 
 	position: absolute;
 	overflow: hidden;
-	top: 60%;
+	top: 50%;
 	left: 15%;
+	color: white;
 }
 /*.gameboard {
 	border: 1px solid black;

@@ -80,9 +80,9 @@ function movePlayer2 () {
 
 	$(function(){
 		$('#hide').click(function(){
-			$("button").hide();
-			$("#instructions").hide();
-			$(".blue").hide();
+			$("button").slideToggle(200);
+			$("#instructions").slideToggle(1500);
+			$(".blue").slideToggle(2500);
 		});
 	});
 
