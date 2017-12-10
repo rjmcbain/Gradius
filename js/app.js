@@ -68,9 +68,30 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $("#bossintro").animate({top: "-=0"}, 1800);
-    $("#bossintro").animate({top: "-=450"}, 5000);
+    $("#bossintro").animate({top: "-=450"}, 7000);
     $("#bossintro").animate({left: "-=1500"}, 1000);
 });
+
+$(document).ready(function() {
+    $("#p1intro").animate({top: "-=0"}, 10000);
+    $("#p1intro").animate({left: "+=2000"}, 3000);
+});
+
+$(document).ready(function() {
+    $("#p2intro").animate({top: "-=0"}, 12000);
+    $("#p2intro").animate({left: "-=2000"}, 3000);
+});
+
+$(document).ready(function() {
+    $("#p3intro").animate({top: "-=0"}, 14000);
+    $("#p3intro").animate({left: "+=2000"}, 3000);
+});
+
+$(document).ready(function() {
+    $("#p4intro").animate({top: "-=0"}, 16000);
+    $("#p4intro").animate({left: "-=2000"}, 3000);
+});
+
 
 var keys = [];
 

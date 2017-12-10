@@ -190,6 +190,42 @@ li {
 	left: 80%;
 }
 
+#p1intro {
+	position: absolute;
+	top: 0%;
+	left: -30%;
+}
+
+#p2intro {
+	position: absolute;
+	top: 0%;
+	left: 130%;
+	 -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#p3intro {
+	position: absolute;
+	top: 0%;
+	left: -30%;
+}
+
+#p4intro {
+	position: absolute;
+	top: 0%;
+	left: 130%;
+	 -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
 a:link{
 	color: #fff;
 	background-color: transparent;
