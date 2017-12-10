@@ -24,19 +24,19 @@ $("html").keydown(function(event){
 function movePlayer () {
     var moveTo = keys[0];
     if(moveTo == "37") {
-      $("#player").stop(true).animate({"left" : "-=30px"});
-    }
+      $("#player1").stop(true).animate({"left" : "-=30px"});  		//player 1
+    }																//movement
 
     if(moveTo == "39") {
-      $("#player").stop(true).animate({"left" : "+=30px"});
+      $("#player1").stop(true).animate({"left" : "+=30px"});
     }
 
     if(moveTo == "38") {
-      $("#player").stop(true).animate({"top" : "-=30px"});
+      $("#player1").stop(true).animate({"top" : "-=30px"});
     }
 
     if(moveTo == "40") {
-            $("#player").stop(true).animate({"top" : "+=30px"});
+            $("#player1").stop(true).animate({"top" : "+=30px"});
     }
     
      keys = keys.slice (1);
@@ -61,8 +61,8 @@ function movePlayer2 () {
     }
 
     if(moveTo == "68") {
-      $("#player2").stop(true).animate({"left" : "+=30px"});
-    }
+      $("#player2").stop(true).animate({"left" : "+=30px"});		//player 2
+    }																//movement
 
     if(moveTo == "87") {
       $("#player2").stop(true).animate({"top" : "-=30px"});
@@ -89,7 +89,12 @@ function movePlayer2 () {
 
 
 $('html, body').css({
-    overflow: 'hidden',
+    overflow: 'hidden',				//disables scrolling
     height: '100%'
 });
- 
+
+function explode(){
+	alert("Boom!");
+}
+setTimeout (explode, 2000);
+ }
