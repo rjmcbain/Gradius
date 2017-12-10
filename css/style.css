@@ -1,10 +1,12 @@
-.container {
+.gradius {
 	position: relative;
+	margin: 0 auto;
+	background-size: cover;
 }
 
 body {
 	background-color: black;
-	margin: 0px;
+	margin: 0 auto;
 }
 
 #player { 
@@ -13,20 +15,29 @@ body {
 	height: 60px; 
 	position: absolute;
 	overflow: hidden;
-	top: 0;
-	left: 0;
+	top: 40%;
+	left: 15%;
 }
 
-.gameboard {
+#player2 { 
+	border: 1px solid blue; 
+	width: 60px; 
+	height: 60px; 
+	position: absolute;
+	overflow: hidden;
+	top: 60%;
+	left: 15%;
+}
+/*.gameboard {
 	border: 1px solid black;
 	height: 98%;
 	width: 99%;
 	opacity: .1;
-	margin: 0px;
+	margin: 0 auto;
 	position: absolute;
 	top: 0;
 	left: 0;
-}
+}*/
 
 .obstacle {
 	border: 1px solid black;
@@ -44,3 +55,20 @@ button {
 	height: 30px;
 	top: 30%;
 	left: 45%;
+}
+
+#instructions {
+	position: absolute;
+	top: 50%;
+	left: 37%;
+	color: red;
+	font-size: 20px;
+}
+
+.blue {
+	position: absolute;
+	top: 60%;
+	left: 37%;
+	color: blue;
+	font-size: 20px;
+}
