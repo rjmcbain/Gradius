@@ -78,40 +78,40 @@ body{
   }
 }
 
-/*body {
-	background-color: black;
-	margin: 0 auto;
-	background-size: 80%;
-}*/
+body {
+	font-family: 'Press Start 2P', cursive;
+}
 
 #player1 { 
 	position: absolute;
 	overflow: hidden;
-	top: 30%;
+	top: 20%;
 	left: 15%;
 }
 
 #player2 { 
 	position: absolute;
 	overflow: hidden;
-	top: 50%;
+	top: 40%;
 	left: 15%;
 }
 
-#p1 {
+.p2 {
 	position: absolute;
-	top: 50%;
-	left: 37%;
+	top: 15%;
+	left: 54%;
 	color: red;
 	font-size: 20px;
+	margin: 0 auto;
 }
 
-#p2 {
+.p1 {
 	position: absolute;
-	top: 50%;
-	left: 37%;
+	top: 15%;
+	left: 34%;
 	color: red;
 	font-size: 20px;
+	margin: 0 auto;
 }
 /*.gameboard {
 	border: 1px solid black;
@@ -142,18 +142,48 @@ button {
 	left: 45%;
 }
 
+li {
+	font-size: 30px;
+	color: white;
+	display: inline;
+	text-decoration: none;
+}
 #instructions {
 	position: absolute;
-	top: 50%;
-	left: 37%;
-	color: red;
+	top: 60%;
+	left: 25%;
+	color: #fff;
 	font-size: 20px;
 }
 
 .blue {
 	position: absolute;
-	top: 60%;
-	left: 37%;
-	color: blue;
+	top: 70%;
+	left: 25%;
+	color: #fff;
 	font-size: 20px;
+}
+
+a:link{
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none
+}
+
+a:visited {
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none
+}
+
+a:hove{
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none
+}
+
+a:active{
+	color: #fff;
+	background-color: transparent;
+	text-decoration: none
 }

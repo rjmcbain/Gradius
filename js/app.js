@@ -88,8 +88,8 @@ function movePlayer2 () {
 
 
 
-// $('html, body').css({
-//     overflow: 'hidden',				//disables scrolling
-//     height: '100%'
-// });
+$('html, body').css({
+    overflow: 'hidden',				//disables scrolling
+    height: '100%'
+});
 
