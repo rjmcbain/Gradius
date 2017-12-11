@@ -166,17 +166,22 @@ $(document).keydown(function(e) {
     switch (e.which) {
         case 37:
             $('#player1').finish().animate({
-                left: "-=10"
+                left: "-=30"
             });
             break;
         case 38:
             $('#player1').finish().animate({
-                top: "-=10"
+                top: "-=30"
             });
             break;
         case 39:
             $('#player1').finish().animate({
-                left: "+=10"
+                left: "+=30"
+            });
+            break;
+        case 191:
+            $('#player1').finish().animate({
+                left: "-=100"
             });
             break;
         case 16:
@@ -186,7 +191,7 @@ $(document).keydown(function(e) {
             break;
         case 40:
             $('#player1').finish().animate({
-                top: "+=10"
+                top: "+=30"
             });
             break;            
     }
@@ -197,17 +202,22 @@ $(document).keydown(function(e) {
     switch (e.which) {
         case 65:
             $('#player2').finish().animate({
-                left: "-=10"
+                left: "-=30"
             });
             break;
         case 87:
             $('#player2').finish().animate({
-                top: "-=10"
+                top: "-=30"
             });
             break;
         case 68:
             $('#player2').finish().animate({
-                left: "+=10"
+                left: "+=30"
+            });
+            break;
+        case 81:
+            $('#player2').finish().animate({
+                left: "-=100"
             });
             break;
         case 70:
@@ -217,7 +227,7 @@ $(document).keydown(function(e) {
             break;
         case 83:
             $('#player2').finish().animate({
-                top: "+=10"
+                top: "+=30"
             });
             break;            
     }
