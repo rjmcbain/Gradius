@@ -167,7 +167,7 @@ $(document).ready(function(){
     animateDiv('#boss6'); 
 });
 
-// $("#boss2").animate({top: "-=0"}, 7000);
+$("#boss").animate({top: "-=0"}, 7000);
 // $("#boss3").animate({top: "-=0"}, 7000);
 // $("#boss4").animate({top: "-=0"}, 7000);
 // $("#boss5").animate({top: "-=0"}, 7000);
@@ -206,6 +206,9 @@ function animateDiv(mydiv){
 
   // Schedule the update to happen once every second
   setInterval(doUpdate, 1000);
+
+  var delay = 30000; 
+setTimeout(function(){ window.location = 'credits.html'; }, delay);
 
 // $(document).ready(function() {
 //     $("#bossintro").animate({top: "-=0"}, 1800);        //ship movement

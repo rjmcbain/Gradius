@@ -156,6 +156,33 @@ p {
 	opacity: .0;
 }
 
+#gameover {
+	position: absolute;
+	top: 35%;
+	left: 23%;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+}
+
+#thanks {
+	position: absolute;
+	top: 35%;
+	left: 0;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	display: inline;
+}
+
+#credits {
+	background-size: cover;
+	background-repeat: none;
+	width:100%;
+ 	height:100%;
+ 	margin: 0 auto;
+}
+
 button {
 	position: absolute;
 	width: 100px;
