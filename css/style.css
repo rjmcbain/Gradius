@@ -103,14 +103,14 @@ p {
 	position: absolute;
 	overflow: hidden;
 	top: 20%;
-	left: 15%;
+	left: -20%;
 }
 
 #player2 { 
 	position: absolute;
 	overflow: hidden;
 	top: 40%;
-	left: 15%;
+	left: -20%;
 }
 
 .p2 {
@@ -194,13 +194,31 @@ li {
 
 #boss2 {
 	position: absolute;
-	top: 20%;
+	top: 40%;
 	left: 80%;
 }
 
 #boss3 {
 	position: absolute;
-	top: 60%;
+	top: 40%;
+	left: 80%;
+}
+
+#boss4 {
+	position: absolute;
+	top: 40%;
+	left: 80%;
+}
+
+#boss5 {
+	position: absolute;
+	top: 40%;
+	left: 80%;
+}
+
+#boss6 {
+	position: absolute;
+	top: 40%;
 	left: 80%;
 }
 
@@ -279,6 +297,13 @@ a:active{
         -ms-filter: "FlipH";
 }
 
+.countdown {
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	top: 0%;
+	left: 90%;
+}
 /*.f1 {
 	position: absolute;
 	top: 0%;

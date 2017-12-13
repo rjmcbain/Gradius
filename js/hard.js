@@ -302,6 +302,12 @@ $(document).keydown(function(e) {
 
 })
 
+$(document).ready(function() {
+    $("#player1").animate({top: "-=0"}, 2000);
+    $("#player1").animate({left: "+=500"}, 4000);
+});
+
+
 // var keys = [];
 
 // $("html").keydown(function(event){

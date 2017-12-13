@@ -1,0 +1,30 @@
+#container {
+	
+	height: 100%;
+	margin: 0 auto;
+	position:fixed;
+   
+  -webkit-animation:50s scroll infinite linear;
+  -moz-animation:50s scroll infinite linear;
+  -o-animation:50s scroll infinite linear;
+  -ms-animation:50s scroll infinite linear;
+  animation:50s scroll infinite linear;
+  top:0;
+  left:0;
+  width:100%;
+ height:100%;
+background-size: cover;
+}
+
+#bgimg {
+  background-size: cover;
+  width:100%;
+ height:100%;
+ margin: 0 auto;
+}
+
+#mario {
+  position: absolute;
+  top: 66%;
+  left: 10%;
+}
