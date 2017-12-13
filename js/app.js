@@ -4,8 +4,6 @@ $(document).ready(function(){
     animateDiv('#boss2');
     animateDiv('#boss3');
     animateDiv('#boss4');
-    animateDiv('#boss5');
-    animateDiv('#boss6'); 
 });
 
 $("#boss").animate({top: "-=0"}, 7000);
@@ -15,9 +13,9 @@ $("#boss4").animate({top: "-=0"}, 7000);
 
 $(document).ready(function() {
     $("#player1").animate({top: "-=0"}, 2000);
-    $("#player1").animate({left: "+=300"}, 4000);
+    $("#player1").animate({left: "+=400"}, 4000);
     $("#player2").animate({top: "-=0"}, 2000);
-    $("#player2").animate({left: "+=400"}, 4000);
+    $("#player2").animate({left: "+=500"}, 4000);
 });
 
 setTimeout (function(){
@@ -114,17 +112,17 @@ $(document).keydown(function(e) {
     switch (e.which) {
         case 37:
             $('#player1').finish().animate({
-                left: "-=30"
+                left: "-=60"
             },checkCollisions);
             break;
         case 38:
             $('#player1').finish().animate({
-                top: "-=30"
+                top: "-=60"
             },checkCollisions);
             break;
         case 39:
             $('#player1').finish().animate({
-                left: "+=30"
+                left: "+=60"
             },checkCollisions);
             break;
         case 191:
@@ -139,7 +137,7 @@ $(document).keydown(function(e) {
             break;
         case 40:
             $('#player1').finish().animate({
-                top: "+=30"
+                top: "+=60"
             },checkCollisions);
             break;            
     }

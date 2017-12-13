@@ -99,6 +99,16 @@ p {
 	margin: 0 auto;
 }
 
+.hard1 {
+	color: #fff;
+	position: absolute;
+	top: 35%;
+	left: 23%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 80px;
+}
+
 #player1 { 
 	position: absolute;
 	overflow: hidden;
@@ -336,7 +346,7 @@ a:active{
 
 .countdown {
 	color: white;
-	font-size: 35px;
+	font-size: 45px;
 	position: absolute;
 	top: 0%;
 	left: 90%;
