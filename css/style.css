@@ -175,6 +175,16 @@ p {
 	display: inline;
 }
 
+.countdownfade {
+	position: absolute;
+	top: 15%;
+	left: 33%;
+	font-size: 500px;
+	color: white;
+	text-align: center;
+	opacity: .3;
+}
+
 #credits {
 	background-size: cover;
 	background-repeat: none;
