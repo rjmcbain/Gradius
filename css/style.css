@@ -18,38 +18,38 @@ background-size: cover;
 
 #bgimg {
 	background-size: cover;
-	width:100%;
+	width:100%;							/*background image*/
  height:100%;
  margin: 0 auto;
 }
 
 @-webkit-keyframes scroll{
   100%{
-    background-position:-3000px 0px;
+    background-position:-3000px 0px;	/*infinite scrolling*/
   }
 }
 
 @-moz-keyframes scroll{
   100%{
-    background-position:-3000px 0px;
+    background-position:-3000px 0px;	/*infinite scrolling*/
   }
 }
 
 @-o-keyframes scroll{
   100%{
-    background-position:-3000px 0px;
+    background-position:-3000px 0px;	/*infinite scrolling*/
   }
 }
 
 @-ms-keyframes scroll{
   100%{
-    background-position:-3000px 0px;
+    background-position:-3000px 0px;	/*infinite scrolling*/
   }
 }
 
 @keyframes scroll{
   100%{
-    background-position:-3000px 0px;
+    background-position:-3000px 0px;	/*infinite scrolling*/
   }
 }
 
@@ -69,19 +69,19 @@ background-size: cover;
 
 @keyframes moveSlideshow {  
   100% { 
-    -webkit-transform: translateX(-200%);  
+    -webkit-transform: translateX(-200%);  		/*infinite scrolling*/
   }
 }
 
 body {
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Press Start 2P', cursive;		/*NES Font*/
 	background-color: black;
 }
 
 p {
 	color: #fff;
 	position: absolute;
-	top: 64%;
+	top: 64%;									
 	left: 5%;
 	text-align: center;
 	padding-right: 60px;
@@ -94,7 +94,7 @@ p {
 	position: absolute;
 	top: 66%;
 	left: 40%;
-	line-height: 155%;
+	line-height: 155%;					
 	text-align: center;
 	margin: 0 auto;
 }
@@ -175,7 +175,6 @@ p {
 	opacity: .0;
 }
 
-
 #gameover {
 	position: absolute;
 	top: 35%;
@@ -238,6 +237,7 @@ li {
 	display: inline;
 	text-decoration: none;
 }
+
 #instructions {
 	position: absolute;
 	top: 60%;
@@ -273,18 +273,6 @@ li {
 }
 
 #boss4 {
-	position: absolute;
-	top: 40%;
-	left: 80%;
-}
-
-#boss5 {
-	position: absolute;
-	top: 40%;
-	left: 80%;
-}
-
-#boss6 {
 	position: absolute;
 	top: 40%;
 	left: 80%;
@@ -372,14 +360,3 @@ a:active{
 	top: 0%;
 	left: 90%;
 }
-/*.f1 {
-	position: absolute;
-	top: 0%;
-	left: 0%;
-}
-
-.f2 {
-	position: relative;
-	top: -100%;
-	left: 0%;
-}*/
