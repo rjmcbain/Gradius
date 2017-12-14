@@ -13,6 +13,16 @@ $(function(){
 })
 
 $(function(){
+    $('#winner').hide();
+    setTimeout(function(){                           //intro text
+    $('#winner').fadeIn('slow');                   //intro text
+    }, 500);
+    setTimeout(function(){                           //intro text
+    $('#winner').fadeOut('slow');                  //intro text
+    }, 4000);
+})
+
+$(function(){
     $('#thanks').hide();
     setTimeout(function(){                           //intro text
     $('#thanks').fadeIn('slow');                     //intro text

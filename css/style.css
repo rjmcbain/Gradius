@@ -175,6 +175,17 @@ p {
 	text-align: center;
 }
 
+#winner {
+	position: absolute;
+	top: 30%;
+	left: 1%;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	line-height: 175%;
+	margin: 0 auto;
+}
+
 #thanks {
 	position: absolute;
 	top: 35%;

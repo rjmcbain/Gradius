@@ -49,7 +49,7 @@ function makeNewPosition(){
 
 function animateDiv(mydiv){
     var newPosition = makeNewPosition();
-    $(mydiv).animate({ top: newPosition[0], left: newPosition[1] }, 500,   
+    $(mydiv).animate({ top: newPosition[0], left: newPosition[1] }, 750,   
   function(){
       animateDiv(mydiv);   
     });
@@ -79,7 +79,7 @@ function animateDiv(mydiv){
   setInterval(doUpdateAgain, 1000);
 
   var delay = 37000; 
-setTimeout(function(){ window.location = 'credits.html'; }, delay);
+setTimeout(function(){ window.location = 'winner.html'; }, delay);
 
 function getPositions(box) {
   var $box = $(box);
@@ -103,8 +103,7 @@ function checkCollisions(){
   var horizontalMatch = comparePositions(pos[0], pos2[0]);
   var verticalMatch = comparePositions(pos[1], pos2[1]);            
   var match = horizontalMatch && verticalMatch;
-   if (match) { $("body").append('<p><a id= "gameover" href="credits.html">GAME OVER</a>'); 
-  $('match').stop(stopAll,goToEnd); }
+   if (match) { window.location = ("credits.html"); }
   // if (match) { 
   //  alert('<p><a id= "gameover" href="credits.html">GAME OVER</a>');
   
@@ -187,8 +186,6 @@ $(document).keydown(function(e) {
     }
 
 })
-
-$('body').css('cursor', 'none');
 
 $('html, body').css({
     overflow: 'hidden',       //disables scrolling
