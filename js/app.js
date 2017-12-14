@@ -6,16 +6,16 @@ $(document).ready(function(){
     animateDiv('#boss4');
 });
 
-$("#boss").animate({top: "-=0"}, 7000);
-$("#boss2").animate({top: "-=0"}, 7000);
-$("#boss3").animate({top: "-=0"}, 7000);
+$("#boss").animate({top: "-=0"}, 7000);         //delays boss for 7 seconds
+$("#boss2").animate({top: "-=0"}, 7000);        //waits for ships to enter
+$("#boss3").animate({top: "-=0"}, 7000);        
 $("#boss4").animate({top: "-=0"}, 7000);
 
 $(document).ready(function() {
-    $("#player1").animate({top: "-=0"}, 2000);
-    $("#player1").animate({left: "+=400"}, 4000);
-    $("#player2").animate({top: "-=0"}, 2000);
-    $("#player2").animate({left: "+=500"}, 4000);
+    $("#player1").animate({top: "-=0"}, 2000);    //ships stand still
+    $("#player1").animate({left: "+=400"}, 4000); //off screen for 2 seconds
+    $("#player2").animate({top: "-=0"}, 2000);    //ships enter from off screen
+    $("#player2").animate({left: "+=500"}, 4000); 
 });
 
 setTimeout (function(){
@@ -23,9 +23,9 @@ setTimeout (function(){
 }, 6000); 
 
 $(function(){
-    $('.countdownfade').hide();
+    $('.countdownfade').hide();                      //hides countdown
     setTimeout(function(){                           //intro text
-    $('.countdownfade').fadeIn('slow');    
+    $('.countdownfade').fadeIn('slow');             
     }, 31000);
     $('.countdown').hide();
     setTimeout(function(){                           //intro text
@@ -37,8 +37,8 @@ $(function(){
 
 function makeNewPosition(){
     
-    var h = $(window).height() - 1;
-    var w = $(window).width() - 1;
+    var h = $(window).height() - 50;         //animates bosses at random
+    var w = $(window).width() - 50;
     
     var nh = Math.floor(Math.random() * h);
     var nw = Math.floor(Math.random() * w);
@@ -48,8 +48,9 @@ function makeNewPosition(){
 }
 
 function animateDiv(mydiv){
-    var newq = makeNewPosition();
-    $(mydiv).animate({ top: newq[0], left: newq[1] }, 500,   function(){
+    var newPosition = makeNewPosition();
+    $(mydiv).animate({ top: newPosition[0], left: newPosition[1] }, 500,   
+  function(){
       animateDiv(mydiv);   
     });
     
@@ -102,12 +103,17 @@ function checkCollisions(){
   var horizontalMatch = comparePositions(pos[0], pos2[0]);
   var verticalMatch = comparePositions(pos[1], pos2[1]);            
   var match = horizontalMatch && verticalMatch;
-  if (match) { 
-   alert('Collision Detected!');
-    }
+   if (match) { $("body").append('<p><a id= "gameover" href="credits.html">GAME OVER</a>'); 
+  $('match').stop(stopAll,goToEnd); }
+  // if (match) { 
+  //  alert('<p><a id= "gameover" href="credits.html">GAME OVER</a>');
+  
+  //   }
 }
 
-
+//player 1 controls
+//player 1 controls
+//player 1 controls
 $(document).keydown(function(e) {
     switch (e.which) {
         case 37:
@@ -143,7 +149,9 @@ $(document).keydown(function(e) {
     }
 
 })
-
+//player 2 controls
+//player 2 controls
+//player 2 controls
 $(document).keydown(function(e) {
     switch (e.which) {
         case 65:
@@ -180,8 +188,10 @@ $(document).keydown(function(e) {
 
 })
 
+$('body').css('cursor', 'none');
+
 $('html, body').css({
     overflow: 'hidden',       //disables scrolling
-    height: '100%'
+    height: '100%'            //disables scrolling
 });
 
