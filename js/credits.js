@@ -1,7 +1,3 @@
-$( document ).ready(function() {
-    console.log( "ready!" );
-
-
 $(function(){
     $('#gameover').hide();
     setTimeout(function(){                           //intro text
@@ -15,10 +11,10 @@ $(function(){
 $(function(){
     $('#winner').hide();
     setTimeout(function(){                           //intro text
-    $('#winner').fadeIn('slow');                   //intro text
+    $('#winner').fadeIn('slow');                     //intro text
     }, 500);
     setTimeout(function(){                           //intro text
-    $('#winner').fadeOut('slow');                  //intro text
+    $('#winner').fadeOut('slow');                    //intro text
     }, 4000);
 })
 
@@ -76,7 +72,7 @@ $(function(){
 
 $(document).ready(function() {
     $("#bossintro").animate({top: "-=0"}, 1800);        //ship movement
-    $("#bossintro").animate({top: "-=500"}, 8250);      //ship movement
+    $("#bossintro").animate({top: "-=600"}, 8250);      //ship movement
     $("#bossintro").animate({left: "-=2500"}, 1000);    //ship movement
     $("#p1intro").animate({top: "-=0"}, 10500);         //ship movement
     $("#p1intro").animate({left: "+=6000"}, 5000);      //ship movement
@@ -96,5 +92,3 @@ $('html, body').css({                               //disables scrolling
     overflow: 'hidden',                             //disables scrolling
     height: '100%'                                  //disables scrolling
 });  
-
-});

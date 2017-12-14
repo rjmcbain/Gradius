@@ -166,6 +166,16 @@ p {
 	opacity: .0;
 }
 
+#back {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	color: white;
+	font-size: 200px;
+	opacity: .0;
+}
+
+
 #gameover {
 	position: absolute;
 	top: 35%;
@@ -294,7 +304,7 @@ li {
 
 #p2intro {
 	position: absolute;
-	top: 55%;
+	top: 57%;
 	left: 130%;
 	 -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);

@@ -117,17 +117,17 @@ $(document).keydown(function(e) {
     switch (e.which) {
         case 37:
             $('#player1').finish().animate({
-                left: "-=60"
+                left: "-=75"
             },checkCollisions);
             break;
         case 38:
             $('#player1').finish().animate({
-                top: "-=60"
+                top: "-=75"
             },checkCollisions);
             break;
         case 39:
             $('#player1').finish().animate({
-                left: "+=60"
+                left: "+=75"
             },checkCollisions);
             break;
         case 191:
@@ -142,7 +142,7 @@ $(document).keydown(function(e) {
             break;
         case 40:
             $('#player1').finish().animate({
-                top: "+=60"
+                top: "+=75"
             },checkCollisions);
             break;            
     }
@@ -155,17 +155,17 @@ $(document).keydown(function(e) {
     switch (e.which) {
         case 65:
             $('#player2').finish().animate({
-                left: "-=30"
+                left: "-=75"
             },-200,checkCollisions);
             break;
         case 87:
             $('#player2').finish().animate({
-                top: "-=30"
+                top: "-=75"
             },-200,checkCollisions);
             break;
         case 68:
             $('#player2').finish().animate({
-                left: "+=30"
+                left: "+=75"
             },-200,checkCollisions);
             break;
         case 81:
@@ -180,7 +180,7 @@ $(document).keydown(function(e) {
             break;
         case 83:
             $('#player2').finish().animate({
-                top: "+=30"
+                top: "+=75"
             },-200,checkCollisions);
             break;            
     }
