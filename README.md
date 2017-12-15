@@ -10,6 +10,10 @@ In this game the player will be able to choose between 1 and 2 players. In both 
 
 At the end of the battle the player will be presented with a new mode, HARD MODE.
 
+### Languages Used
+
+HTML5  |  CSS  |  Javascript  
+
 ### Links
 
 Go to [https://imgur.com/a/mQtWX](https://imgur.com/a/mQtWX).All 3 wireframes are on there. Please scroll down
