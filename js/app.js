@@ -33,15 +33,15 @@ $(function(){
     }, 6000);
 })
 
-
+setInterval(makeNewPosition, 1000);
 
 function makeNewPosition(){
     
     var h = $(window).height() - 50;         //animates bosses at random
     var w = $(window).width() - 50;
     
-    var nh = Math.floor(Math.random() * h);
-    var nw = Math.floor(Math.random() * w);
+    var nh = (Math.random() * h);
+    var nw = (Math.random() * w);
     
     return [nh,nw];    
     
@@ -82,10 +82,10 @@ function animateDiv(mydiv){
 setTimeout(function(){ window.location = 'winner.html'; }, delay);
 
 function getPositions(box) {
-  var $box = $(box);
-  var pos = $box.position();
-  var width = $box.width();
-  var height = $box.height();
+  var mybox = $(box);
+  var pos = mybox.position();
+  var width = mybox.width();
+  var height = mybox.height();
   return [ [ pos.left, pos.left + width ], [ pos.top, pos.top + height ] ];
 }
         
