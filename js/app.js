@@ -1,15 +1,9 @@
 console.log("hello");
-$(document).ready(function(){
-    animateDiv('#boss');
-    animateDiv('#boss2');
-    animateDiv('#boss3');
-    animateDiv('#boss4');
-});
 
 $("#boss").animate({top: "-=0"}, 7000);         //delays boss for 7 seconds
 $("#boss2").animate({top: "-=0"}, 7000);        //waits for ships to enter
-$("#boss3").animate({top: "-=0"}, 7000);        
-$("#boss4").animate({top: "-=0"}, 7000);
+$("#boss3").animate({top: "-=0"}, 7000);        //delays boss for 7 seconds
+$("#boss4").animate({top: "-=0"}, 7000);        //waits for ships to enter
 
 $(document).ready(function() {
     $("#player1").animate({top: "-=0"}, 2000);    //ships stand still
@@ -25,66 +19,78 @@ setTimeout (function(){
 $(function(){
     $('.countdownfade').hide();                      //hides countdown
     setTimeout(function(){                           //intro text
-    $('.countdownfade').fadeIn('slow');             
+    $('.countdownfade').fadeIn('slow');              //31 seconds countdown delay
     }, 31000);
     $('.countdown').hide();
-    setTimeout(function(){                           //intro text
+    setTimeout(function(){                           //countdown timer
     $('.countdown').fadeIn('slow');    
     }, 6000);
 })
 
-setInterval(makeNewPosition, 1000);
+
 
 function makeNewPosition(){
     
     var h = $(window).height() - 50;         //animates bosses at random
-    var w = $(window).width() - 50;
+    var w = $(window).width() - 50;          //animates bosses at random
     
-    var nh = (Math.random() * h);
-    var nw = (Math.random() * w);
+    var nh = (Math.random() * h);            //animates bosses at random
+    var nw = (Math.random() * w);            //animates bosses at random
     
     return [nh,nw];    
     
 }
 
 function animateDiv(mydiv){
-    var newPosition = makeNewPosition();
-    $(mydiv).animate({ top: newPosition[0], left: newPosition[1] }, 750,   
-  function(){
+    var newPosition = makeNewPosition();      //animates bosses at random
+    $(mydiv).animate({ top: newPosition[0],   //animates bosses at random
+      left: newPosition[1] }, 750,            //animates bosses at random
+  function(){ 
       animateDiv(mydiv);   
     });
     
 };
 
-  var doUpdate = function() {
+$(document).ready(function(){
+    animateDiv('#boss');                      //animates bosses at random
+    animateDiv('#boss2');
+    animateDiv('#boss3');                     //animates bosses at random
+    animateDiv('#boss4');
+});
+
+  var doUpdate = function() {                 //30 second timer
     $('.countdown').each(function() {
-      var count = parseInt($(this).html());
+      var count = parseInt($(this).html());   //30 second timer
       if (count !== 0) {
-        $(this).html(count - 1);
+        $(this).html(count - 1);              //30 second timer
       }
     });
   };
   // Schedule the update to happen once every second
   setInterval(doUpdate, 1000);
 
-  var doUpdateAgain = function() {
+  var doUpdateAgain = function() {            //5 second timer
     $('.countdownfade').each(function() {
-      var count = parseInt($(this).html());
+      var count = parseInt($(this).html());   //5 second timer
       if (count !== 0) {
-        $(this).html(count - 1);
+        $(this).html(count - 1);              //5 second timer
       }
     });
   };
   // Schedule the update to happen once every second
   setInterval(doUpdateAgain, 1000);
 
-  var delay = 37000; 
-setTimeout(function(){ window.location = 'winner.html'; }, delay);
+  var delay = 37000;                                                    //delay timer, sends to winner screen
+setTimeout(function(){ window.location = 'winner.html'; }, delay);      //after 37 seconds
+
+// Hit Detection
+//Hit Detection
+//Hit Detection
 
 function getPositions(box) {
   var mybox = $(box);
-  var pos = mybox.position();
-  var width = mybox.width();
+  var pos = mybox.position();                     
+  var width = mybox.width();                
   var height = mybox.height();
   return [ [ pos.left, pos.left + width ], [ pos.top, pos.top + height ] ];
 }
@@ -104,82 +110,77 @@ function checkCollisions(){
   var verticalMatch = comparePositions(pos[1], pos2[1]);            
   var match = horizontalMatch && verticalMatch;
    if (match) { window.location = ("credits.html"); }
-  // if (match) { 
-  //  alert('<p><a id= "gameover" href="credits.html">GAME OVER</a>');
-  
-  //   }
 }
 
-//player 1 controls
-//player 1 controls
-//player 1 controls
+//Hit Detection
+//Hit Detection
+//Hit Detection
+
 $(document).keydown(function(e) {
     switch (e.which) {
         case 37:
-            $('#player1').finish().animate({
+            $('#player1').finish().animate({        //player 1 controls
                 left: "-=75"
             },checkCollisions);
             break;
         case 38:
-            $('#player1').finish().animate({
+            $('#player1').finish().animate({        //player 1 controls
                 top: "-=75"
             },checkCollisions);
             break;
         case 39:
-            $('#player1').finish().animate({
+            $('#player1').finish().animate({        //player 1 controls
                 left: "+=75"
             },checkCollisions);
             break;
         case 191:
-            $('#player1').finish().animate({
-                left: "-=100"
+            $('#player1').finish().animate({        //player 1 controls
+                left: "-=100"                       //booster
             },checkCollisions);
             break;
         case 16:
-            $('#player1').finish().animate({
-                left: "+=125"
+            $('#player1').finish().animate({        //player 1 controls
+                left: "+=125"                       //booster
             },checkCollisions);
             break;
         case 40:
-            $('#player1').finish().animate({
+            $('#player1').finish().animate({        //player 1 controls
                 top: "+=75"
             },checkCollisions);
             break;            
     }
 
 })
-//player 2 controls
-//player 2 controls
-//player 2 controls
+
 $(document).keydown(function(e) {
     switch (e.which) {
         case 65:
-            $('#player2').finish().animate({
+            $('#player2').finish().animate({      //player 2 controls
                 left: "-=75"
             },-200,checkCollisions);
             break;
         case 87:
-            $('#player2').finish().animate({
+            $('#player2').finish().animate({      //player 2 controls
                 top: "-=75"
             },-200,checkCollisions);
             break;
         case 68:
-            $('#player2').finish().animate({
+            $('#player2').finish().animate({      //player 2 controls
                 left: "+=75"
             },-200,checkCollisions);
             break;
         case 81:
-            $('#player2').finish().animate({
-                left: "-=100"
+            $('#player2').finish().animate({      //player 2 controls 
+                left: "-=100"                     //booster
             },-200,checkCollisions);
             break;
         case 70:
-            $('#player2').finish().animate({
-                left: "+=125"
+            $('#player2').finish().animate({      //player 2 controls
+                left: "+=125"                     //booster
             },-200,checkCollisions);
             break;
         case 83:
-            $('#player2').finish().animate({
+            $('#player2').finish().animate({      //player 2 controls
                 top: "+=75"
             },-200,checkCollisions);
             break;            

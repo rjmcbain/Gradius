@@ -261,19 +261,19 @@ li {
 }
 
 #boss2 {
-	position: absolute;
+	position: absolute;			/*Hard Mode*/
 	top: 40%;
 	left: 80%;
 }
 
 #boss3 {
-	position: absolute;
+	position: absolute;			/*Hard Mode*/
 	top: 40%;
 	left: 80%;
 }
 
 #boss4 {
-	position: absolute;
+	position: absolute;			/*Hard Mode*/
 	top: 40%;
 	left: 80%;
 }
