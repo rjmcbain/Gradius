@@ -25,3 +25,13 @@ HTML5  |  CSS  |  Javascript
 Go to [https://imgur.com/a/mQtWX](https://imgur.com/a/mQtWX).All 3 wireframes are on there. Please scroll down
 
 Go to [https://trello.com/b/J31ktLho/game](https://trello.com/b/J31ktLho/game)
+
+
+### Landing Page
+
+[https://github.com/rjmcbain/project1/blob/master/index.html](https://github.com/rjmcbain/project1/blob/master/index.html)
+
+### Game
+
+[https://rjmcbain.github.io/project1/](https://rjmcbain.github.io/project1/)
+
