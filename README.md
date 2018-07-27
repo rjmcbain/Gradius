@@ -33,5 +33,5 @@ Go to [https://trello.com/b/J31ktLho/game](https://trello.com/b/J31ktLho/game)
 
 ### Game
 
-[https://rjmcbain.github.io/project1/](https://rjmcbain.github.io/project1/)
+[https://rjmcbain.github.io/Gradius/](https://rjmcbain.github.io/Gradius/)
 
